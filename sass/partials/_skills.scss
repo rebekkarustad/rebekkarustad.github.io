@@ -1,0 +1,21 @@
+.skills-wrap {
+  margin: 100px auto;
+  padding: 20px;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .skills-elements {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    padding-bottom: 30px;
+    .fa-brands {
+      font-size: 5rem;
+      color: $color-secondary;
+    }
+    p {
+      padding-top: 10px;
+    }
+  }
+}
